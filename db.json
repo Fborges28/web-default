@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 100,
+      "description": "Product 1 description",
+      "categories": [1,2]
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 200,
+      "description": "Product 2 description",
+      "categories": [1]
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "price": 300,
+      "description": "Product 3 description",
+      "categories": [3]
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "price": 400,
+      "description": "Product 4 description",
+      "categories": [2, 4]
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "price": 500,
+      "description": "Product 5 description",
+      "categories": [1,2]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Category 1"
+    },
+    {
+      "id": 2,
+      "name": "Category 2"
+    },
+    {
+      "id": 3,
+      "name": "Category 3"
+    },
+    {
+      "id": 4,
+      "name": "Category 4"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "rating": 5,
+      "comment": "This is a great review",
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "rating": 4,
+      "comment": "This is a great review",
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "name": "Jane Doe",
+      "rating": 3,
+      "comment": "This is a great review",
+      "productId": 3
+    },
+    {
+      "id": 4,
+      "name": "Jane Doe",
+      "rating": 2,
+      "comment": "This is a great review",
+      "productId": 4
+    },
+    {
+      "id": 5,
+      "name": "Jane Doe",
+      "rating": 1,
+      "comment": "This is a great review",
+      "productId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Doe"
+    }
+  ]
+}
